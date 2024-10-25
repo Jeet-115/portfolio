@@ -60,12 +60,12 @@ const ContactInfo = () => {
 
       <div className="flex space-x-6 text-2xl">
         {[
-          { href: "https://linkedin.com/in/username", icon: <FaLinkedin />, color: theme === "dark" ? "text-blue-400" : "text-blue-500" },
-          { href: "https://github.com/username", icon: <FaGithub />, color: theme === "dark" ? "text-gray-400" : "text-gray-800" },
-          { href: "https://twitter.com/username", icon: <img src="/twitter.png" alt="Twitter X" className="h-[1em] w-[1em]" />, color: "" },
-          { href: "mailto:username@example.com", icon: <FaEnvelope />, color: theme === "dark" ? "text-red-400" : "text-red-500" },
-          { href: "https://instagram.com/username", icon: <FaInstagram />, color: "text-pink-500" },
-          { href: "https://facebook.com/username", icon: <FaFacebook />, color: "text-blue-600" },
+          { href: "https://linkedin.com/in/jeet-mistry-67a613233", icon: <FaLinkedin />, color: theme === "dark" ? "text-blue-400" : "text-blue-500" },
+          { href: "https://github.com/Jeet-115", icon: <FaGithub />, color: theme === "dark" ? "text-gray-400" : "text-gray-800" },
+          { href: "https://x.com/@Jeet43959691", icon: <img src="/twitter.png" alt="Twitter X" className="h-[1em] w-[1em]" />, color: "" },
+          { href: "mailto:jeetmistry115@gmail.com", icon: <FaEnvelope />, color: theme === "dark" ? "text-red-400" : "text-red-500" },
+          { href: "https://www.instagram.com/jeet_.115/", icon: <FaInstagram />, color: "text-pink-500" },
+          { href: "https://facebook.com/jeet.mistry.7543/", icon: <FaFacebook />, color: "text-blue-600" },
         ].map((link, index) => (
           <motion.a
             key={index}

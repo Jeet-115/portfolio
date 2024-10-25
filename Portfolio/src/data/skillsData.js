@@ -2,30 +2,33 @@
 
 const skills = {
     Coding: [
-      { name: "C", progress: 50 },
-      { name: "Python", progress: 60 },
-      { name: "C++", progress: 70 },
-      { name: "Java", progress: 80 },
+      { name: "C", progress: 80 },
+      { name: "Python", progress: 90 },
+      { name: "Java", progress: 70 },
+      { name: "OOPS", progress: 60 },
+      { name: "DSA", progress: 60 },
     ],
-    "Web Development": [
-      { name: "HTML", progress: 85 },
-      { name: "CSS", progress: 80 },
-      { name: "JS", progress: 90 },
+    "Frontend Development": [
+      { name: "HTML", progress: 95 },
+      { name: "CSS", progress: 85 },
+      { name: "JS", progress: 80 },
       { name: "Bootstrap", progress: 90 },
+      { name: "React JS", progress: 70 },
+      { name: "Tailwind CSS", progress: 80 },
     ],
-    "App Development": [
-      { name: "Flutter", progress: 75 },
-      { name: "Dart", progress: 70 },
-      { name: "Android", progress: 70 },
-      { name: "IOS", progress: 70 },
-      { name: "Firebase", progress: 70 },
+    "Backend Development": [
+      { name: "MongoDB", progress: 70 },
+      { name: "Postman API", progress: 80 },
+      { name: "MySQL", progress: 75 },
+      { name: "SQL queries", progress: 80 },
+      { name: "PHP", progress: 70 },
     ],
     Others: [
-      { name: "Git/GitHub", progress: 85 },
+      { name: "Git/GitHub", progress: 90 },
       { name: "Arduino", progress: 60 },
-      { name: "Figma", progress: 60 },
+      { name: "Figma", progress: 80 },
       { name: "Linux", progress: 60 },
-      { name: "MySQL", progress: 60 },
+      { name: "Canva", progress: 70 },
     ],
   };
   

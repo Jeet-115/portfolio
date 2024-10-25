@@ -10,9 +10,9 @@ const Hero = () => {
   useEffect(() => {
     // Initialize typed.js
     const options = {
-      strings: ["Developer", "Frontend Developer", "App Developer"],
-      typeSpeed: 60,
-      backSpeed: 60,
+      strings: ["Frontend Developer", "MERN Stack Developer", "Designer", "Full Stack Developer", "Freelancer"],
+      typeSpeed: 40,
+      backSpeed: 40,
       backDelay: 1500,
       loop: true,
     };
@@ -84,7 +84,7 @@ const Hero = () => {
           animate={inView ? "visible" : "hidden"} // Animate based on visibility
           variants={popupVariants}
         >
-          <h1 className="text-4xl font-bold outfit text-white">Himanshu Chopade</h1>
+          <h1 className="text-4xl font-bold outfit text-white">Jeet Mistry</h1>
           <p className="text-xl mt-4 inter text-white">
             <span className="typed" ref={typedRef} />
             <span

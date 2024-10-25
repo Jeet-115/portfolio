@@ -1,29 +1,27 @@
 import React, { useEffect, useRef, useContext } from "react";
+import { Link } from "react-scroll";
 import { motion, useAnimation } from "framer-motion";
 import Skills from "../Components/Skills";
 import Experience from "../Components/Experience";
 import ThemeContext from "../Components/ThemeContext";
 
 const AboutMe = () => {
-  const { theme } = useContext(ThemeContext); // Access theme context
-  const controlsLeft = useAnimation(); // Left div animation controls
-  const controlsRight = useAnimation(); // Right div animation controls
-  const PRSfadeInRef = useRef(null); // Ref for intersection observer
+  const { theme } = useContext(ThemeContext);
+  const controlsLeft = useAnimation();
+  const controlsRight = useAnimation();
+  const PRSfadeInRef = useRef(null);
 
-  // Intersection Observer to detect visibility changes
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            // Trigger entrance animations
             if (entry.target.classList.contains("left-div")) {
               controlsLeft.start({ opacity: 1, x: 0 });
             } else if (entry.target.classList.contains("right-div")) {
               controlsRight.start({ opacity: 1, x: 0 });
             }
           } else {
-            // Trigger exit animations when elements leave the screen
             if (entry.target.classList.contains("left-div")) {
               controlsLeft.start({ opacity: 0, x: -50 });
             } else if (entry.target.classList.contains("right-div")) {
@@ -32,7 +30,7 @@ const AboutMe = () => {
           }
         });
       },
-      { threshold: 0.5 } // Adjust as needed
+      { threshold: 0.5 }
     );
 
     const element = PRSfadeInRef.current;
@@ -43,10 +41,9 @@ const AboutMe = () => {
       if (rightDiv) observer.observe(rightDiv);
     }
 
-    return () => observer.disconnect(); // Cleanup
+    return () => observer.disconnect();
   }, [controlsLeft, controlsRight]);
 
-  // Animation variants
   const slideInLeft = { opacity: 0, x: -50 };
   const slideInRight = { opacity: 0, x: 50 };
 
@@ -94,27 +91,52 @@ const AboutMe = () => {
         >
           <div className="mt-2 md:space-y-2 montserrat">
             <p>
-              <strong className="inter">Name:</strong> Himanshu Chopade
+              <strong className="inter">Name:</strong> Jeet Mistry
             </p>
             <p>
-              <strong className="inter">Email:</strong> himanshu@example.com
+              <strong className="inter">Email:</strong> jeetmistry115@gmail.com
             </p>
             <p>
-              <strong className="inter">Phone No:</strong> +1234567890
+              <strong className="inter">Phone No:</strong> +91 97379 46657
             </p>
-            <p>
-              <strong className="inter">Position:</strong> AI/ML Engineer
-            </p>
+            <br />
           </div>
+
           <p className="mt-4 text-justify montserrat">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aut
-            ea error incidunt, praesentium voluptatibus quae fugit tempore autem
-            labore iste illum eum ab omnis? Dicta ea vitae tempora similique!
-            Perferendis, dolorem! Sint repellat, expedita quibusdam iure itaque
-            laudantium voluptates ut nobis laborum, iusto quos architecto quod
-            consequuntur dolores ipsum rem omnis vitae! Nihil hic beatae, optio
-            cumque distinctio dignissimos!
+            I am an enthusiastic full-stack developer, passionate about learning
+            and growing in the field of web development, with a particular focus
+            on MERN stack technologies. Specializing in ReactJS, I have built
+            numerous projects and websites, constantly improving my skills and
+            expanding my knowledge. I'm now ready to take on new challenges and
+            start freelancing, offering creative and efficient solutions to
+            bring innovative ideas to life.
           </p>
+
+          {/* Action Buttons */}
+          <div className="flex space-x-4 mt-6">
+            <a href="/Jeet Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <button
+                className={`px-6 py-2 rounded-md text-lg font-semibold ${
+                  theme === "dark"
+                    ? "text-white bg-gradient-to-r from-gray-900 to-gray-700 hover:from-gray-700 hover:to-gray-900 border-2 border-white"
+                    : "text-black bg-gradient-to-r from-gray-200 to-gray-400 hover:from-gray-400 hover:to-gray-200 border-2 border-black"
+                } transition duration-300`}
+              >
+                Resume
+              </button>
+            </a>
+            <Link to="contact" smooth={true} duration={1000}>
+              <button
+                className={`px-6 py-2 rounded-md text-lg font-semibold ${
+                  theme === "dark"
+                    ? "text-white bg-gradient-to-r from-gray-900 to-gray-700 hover:from-gray-700 hover:to-gray-900 border-2 border-white"
+                    : "text-black bg-gradient-to-r from-gray-200 to-gray-400 hover:from-gray-400 hover:to-gray-200 border-2 border-black"
+                } transition duration-300`}
+              >
+                Hire Me
+              </button>
+            </Link>
+          </div>
         </motion.div>
       </div>
 

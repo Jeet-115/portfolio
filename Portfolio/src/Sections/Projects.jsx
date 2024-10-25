@@ -5,7 +5,7 @@ import projectsData from "../data/projectsData";
 import ThemeContext from "../Components/ThemeContext"; // Import ThemeContext
 
 const Projects = () => {
-  const [activeCategory, setActiveCategory] = useState("Web Dev");
+  const [activeCategory, setActiveCategory] = useState("Websites");
   const { theme } = useContext(ThemeContext); // Access theme context
   const projRef = useRef(null); // Reference for the projects section
   const [isVisible, setIsVisible] = useState(false); // State to control visibility

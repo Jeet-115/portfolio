@@ -1,29 +1,72 @@
 const certificatesData = {
   Courses: [
     {
-      title: "Certified Web Developer",
-      institution: "ABC Institute",
-      year: 2023,
+      title: "C for Beginners",
+      institution: "Great Learning",
     },
     {
-      title: "Machine Learning Specialization",
-      institution: "Coursera",
-      year: 2021,
+      title: "Programming Basics",
+      institution: "Great Learning",
+    },
+    {
+      title: "Data Structures in C",
+      institution: "Great Learning",
+    },
+    {
+      title: "Java Programming",
+      institution: "Great Learning",
+    },
+    {
+      title: "Object-Oriented Programming with Java",
+      institution: "Great Learning",
+    },
+    {
+      title: "Python Fundamentals",
+      institution: "Great Learning",
+    },
+    {
+      title: "Database and SQL",
+      institution: "Infosys",
     },
   ],
-  Achievements: [
+  WebDevelopment: [
     {
-      title: "Top Performer in XYZ Hackathon",
-      institution: "XYZ Academy",
-      year: 2022,
+      title: "API Fundamentals",
+      institution: "Postman",
     },
-    { title: "Best Project Award", institution: "DEF Event", year: 2023 },
-  ],
-  Hackathons: [
     {
-      title: "Won 2nd Place in ABC Hackathon",
-      institution: "Hackfest",
-      year: 2024,
+      title: "HTML Attributes and Tags",
+      institution: "Great Learning",
+    },
+    {
+      title: "Master Certificate in Full Stack Development",
+      institution: "Great Learning",
+    },
+    {
+      title: "Front End Development - CSS",
+      institution: "Great Learning",
+    },
+    {
+      title: "Front End Development - HTML",
+      institution: "Great Learning",
+    },
+  ],
+  Workshops: [
+    {
+      title: "Workshop in Cyber Security",
+      institution: "ST7 Surveillance Solution",
+    },
+    {
+      title: "Computer Networks and Internet Protocol",
+      institution: "NPTEL",
+    },
+    {
+      title: "A Masterclass for JavaScript",
+      institution: "Parul University",
+    },
+    {
+      title: "Web Application Development with Advanced CRUD Operations",
+      institution: "Parul University",
     },
   ],
 };
