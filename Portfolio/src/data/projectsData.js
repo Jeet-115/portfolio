@@ -29,20 +29,20 @@ const projectsData = {
       codeLink: "https://github.com/Jeet-115/multivendor",
       demoLink: "https://github.com/Jeet-115/multivendor/blob/430ad6bfbdf85deacbeedaa8f7aeebad4c1a89ef/video.md",
     },
-    {
-      title: "Client 1 Portfolio",
-      image: "/c1p.png",
-      desc: "A personalized portfolio for Client 1, featuring their work and projects.",
-      codeLink: "https://github.com/Jeet-115/portfolio",
-      demoLink: "https://himanshuchopade.vercel.app/",
-    },
-    {
-      title: "Client 2 Portfolio",
-      image: "/c2p.png",
-      desc: "A modern portfolio for Client 2, highlighting their professional achievements.",
-      codeLink: "https://github.com/coutprat/Portfolio",
-      demoLink: "https://coutprat.github.io/Portfolio/",
-    },
+    // {
+    //   title: "Client 1 Portfolio",
+    //   image: "/c1p.png",
+    //   desc: "A personalized portfolio for Client 1, featuring their work and projects.",
+    //   codeLink: "https://github.com/Jeet-115/portfolio",
+    //   demoLink: "https://himanshuchopade.vercel.app/",
+    // },
+    // {
+    //   title: "Client 2 Portfolio",
+    //   image: "/c2p.png",
+    //   desc: "A modern portfolio for Client 2, highlighting their professional achievements.",
+    //   codeLink: "https://github.com/coutprat/Portfolio",
+    //   demoLink: "https://coutprat.github.io/Portfolio/",
+    // },
   ],
   "Web Apps": [
   {

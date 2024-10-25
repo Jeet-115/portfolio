@@ -28,7 +28,7 @@ const Projects = () => {
           }
         });
       },
-      { threshold: 0.5 } // Trigger when 10% of the section is visible
+      { threshold: 0.2 } // Trigger when 10% of the section is visible
     );
 
     const currentRef = projRef.current;
