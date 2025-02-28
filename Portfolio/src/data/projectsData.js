@@ -20,8 +20,14 @@ const projectsData = {
       desc: "A community portal for the PU AI Society, allowing members to register for AI events and stay updated on society activities.",
       codeLink: "https://github.com/The-PU-AI-Society",
       demoLink: "https://puaiso.paruluniversity.ac.in/",
+    },  
+    {
+      title: "WanderLust",
+      image: "/wanderlust.png",
+      desc: "A website like Airbnb used to book hotel rooms after signup and login.",
+      codeLink: "https://github.com/Jeet-115/WanderLust",
+      demoLink: "https://wanderlust-ukxm.onrender.com/listings",
     },
-    
     {
       title: "Multivendor",
       image: "/mv.png",
@@ -58,6 +64,62 @@ const projectsData = {
     desc: "A fun game where users guess the color based on RGB values, enhancing color recognition skills.",
     codeLink: "https://github.com/Jeet-115/Color-Picker",
     demoLink: "https://jeet-115.github.io/Color-Picker/",
+  },
+  {
+    title: "Currency Converter",
+    image: "/currency.png",
+    desc: "A web app to convert currencies in real-time using an API.",
+    codeLink: "https://github.com/Jeet-115/Currencyconverter",
+    demoLink: "https://currencyconverter-jeet.vercel.app/",
+  },
+  {
+    title: "React API Mini Context",
+    image: "/apicontext.png",
+    desc: "A project demonstrating API calls and state management with React Context API.",
+    codeLink: "https://github.com/Jeet-115/ReactAPI-MiniContext",
+    demoLink: "https://react-api-mini-context.vercel.app/",
+  },
+  {
+    title: "React Password Generator",
+    image: "/passwordgen.png",
+    desc: "A simple password generator app built with React.",
+    codeLink: "https://github.com/Jeet-115/ReactPasswordGenerator",
+    demoLink: "https://react-password-generator-jeet.vercel.app/",
+  },
+  {
+    title: "React Router Web Project",
+    image: "/reactrouter.png",
+    desc: "Created to showcase how React Router DOM can be used.",
+    codeLink: "https://github.com/Jeet-115/ReactRouterWebProject",
+    demoLink: "https://react-router-web-project.vercel.app/",
+  },
+  {
+    title: "React Theme Switcher",
+    image: "/themeswitcher.png",
+    desc: "A React-based project that allows users to switch between light and dark themes.",
+    codeLink: "https://github.com/Jeet-115/ReactThemeSwitcher",
+    demoLink: "https://react-theme-switcher-jeet.vercel.app/",
+  },
+  {
+    title: "React Redux Toolkit Todo",
+    image: "/reduxtodo.png",
+    desc: "A Todo app built using React and Redux Toolkit for state management.",
+    codeLink: "https://github.com/Jeet-115/React-Redux-Toolkit-Todo",
+    demoLink: "https://react-redux-toolkit-todo-jeet.vercel.app/",
+  },
+  {
+    title: "Prime Numbers Finder",
+    image: "/primenumber.png",
+    desc: "A React app that finds prime numbers efficiently.",
+    codeLink: "https://github.com/Jeet-115/Prime-numbers-finder",
+    demoLink: "https://prime-numbers-finder.vercel.app/",
+  },
+  {
+    title: "React Workshop E-commerce Prototype",
+    image: "/workshop.png",
+    desc: "A small e-commerce prototype created during a React workshop.",
+    codeLink: "https://github.com/Jeet-115/WevDev-Workshop-React",
+    demoLink: "https://react-workshop-jeet.vercel.app/",
   },
   {
     title: "Todo App",
@@ -120,6 +182,21 @@ const projectsData = {
 ],
 
 "Others": [
+  {
+    title: "Social Media Performance Analysis",
+    image: "/smpa.png",
+    desc: "A project analyzing social media performance with a YouTube video explaining its working.",
+    codeLink: "https://github.com/Jeet-115/Social-Media-Performance-Analysis",
+    demoLink: "https://www.linkedin.com/in/jeet-mistry-67a613233",
+
+  },
+  {
+    title: "ToDo App with Context & Local Storage",
+    image: "/todo-context.png",
+    desc: "A todo app using React Context API and local storage for data persistence.",
+    codeLink: "https://github.com/Jeet-115/ToDo-ContextLocal",
+    demoLink: "https://www.linkedin.com/in/jeet-mistry-67a613233",
+  },
   {
     title: "Inventory Management",
     image: "/imp.jpeg",
