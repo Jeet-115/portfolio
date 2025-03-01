@@ -15,6 +15,8 @@ const skills = {
       { name: "Bootstrap", progress: 90 },
       { name: "React JS", progress: 70 },
       { name: "Tailwind CSS", progress: 80 },
+      { name: "Framer Motion", progress: 80 },
+      { name: "Material UI", progress: 70 },
     ],
     "Backend Development": [
       { name: "MongoDB", progress: 70 },
@@ -22,6 +24,8 @@ const skills = {
       { name: "MySQL", progress: 75 },
       { name: "SQL queries", progress: 80 },
       { name: "PHP", progress: 70 },
+      { name: "Node JS", progress: 70 },
+      { name: "Express JS", progress: 60 },
     ],
     Others: [
       { name: "Git/GitHub", progress: 90 },
