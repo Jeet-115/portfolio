@@ -37,7 +37,7 @@ const projectsData = {
     },
     {
       "title": "CSI 8th Conclave Landing Page",
-      "image": "/csi8.png",
+      "image": "/csindialp.png",
       "desc": "A dynamic landing page designed for Chhatra Sansad India's 8th Conclave, facilitating event information dissemination and participant engagement.",
       "codeLink": "https://github.com/Jeet-115/8thconclavelandingpage",
       "demoLink": "https://csindia.org/"
