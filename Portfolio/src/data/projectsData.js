@@ -35,6 +35,13 @@ const projectsData = {
       codeLink: "https://github.com/Jeet-115/multivendor",
       demoLink: "https://github.com/Jeet-115/multivendor/blob/430ad6bfbdf85deacbeedaa8f7aeebad4c1a89ef/video.md",
     },
+    {
+      "title": "CSI 8th Conclave Landing Page",
+      "image": "/csi8.png",
+      "desc": "A dynamic landing page designed for Chhatra Sansad India's 8th Conclave, facilitating event information dissemination and participant engagement.",
+      "codeLink": "https://github.com/Jeet-115/8thconclavelandingpage",
+      "demoLink": "https://csindia.org/"
+    },    
     // {
     //   title: "Client 1 Portfolio",
     //   image: "/c1p.png",
