@@ -8,6 +8,27 @@ const projectsData = {
       demoLink: "https://excel-analysis-platform.vercel.app/",
     },
     {
+      title: "Eraya Ratna",
+      image: "/erayaratna.png",
+      desc: "An e-commerce prototype built with the MERN stack, featuring shopping cart, checkout, and product search/filter capabilities. Integrated Redux and Firebase for client-side persistence and smooth transaction flows.",
+      codeLink: "https://github.com/Jeet-115/Eraya-ratna",
+      demoLink: "https://eraya-ratna.vercel.app/",
+    },
+    {
+      title: "BlogSmithery",
+      image: "/blogsmithery.png",
+      desc: "A secure blogging platform built with the MERN stack. Features JWT authentication, role-based access control (RBAC), and a responsive design, ensuring safe and seamless publishing for registered users.",
+      codeLink: "https://github.com/Jeet-115/BlogSmithery",
+      demoLink: "https://blogsmithery-jeet.vercel.app/",
+    },
+    {
+      title: "DASS Insurance",
+      image: "/dassinsurance.png",
+      desc: "A modern corporate website for DASS Insurance created with React, Vite, Tailwind CSS, Framer Motion, and Web3Forms. Focused on responsive UI, animations, and lead capture through integrated forms.",
+      codeLink: "https://github.com/Jeet-115/DASS-Insurance",
+      demoLink: "https://dass-insurance.vercel.app/",
+    },
+    {
       title: "PUAISO",
       image: "/puaiso.png",
       desc: "A community portal for the PU AI Society, allowing members to register for AI events and stay updated on society activities.",

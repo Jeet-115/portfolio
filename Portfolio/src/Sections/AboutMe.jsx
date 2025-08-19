@@ -114,7 +114,7 @@ const AboutMe = () => {
 
           {/* Action Buttons */}
           <div className="flex space-x-4 mt-6">
-            <a href="/Jeet Mistry.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/Jeet Mistry 2.pdf" target="_blank" rel="noopener noreferrer">
               <button
                 className={`px-6 py-2 rounded-md text-lg font-semibold ${
                   theme === "dark"
